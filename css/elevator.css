@@ -27,6 +27,10 @@
   border-radius: 10px;
 }
 
+.sidebar p {
+	font-size: 24px;
+}
+
 .sidebar div h2 {
   margin-bottom: 20px;
 }
