@@ -18,15 +18,16 @@
 
 <body class="body">
 
-	<header class="header black">
+	<header class="header dark">
 		<div class="header__container container">
 			<menu class="header__menu">
+				<p><a name="top"></a></p>
 				<img class="header__logo" src="img/logo.png" alt="logo">
 				<li class="header__links">
-					<ul class="header__link">О нас</ul>
-					<ul class="header__link">Производство</ul>
-					<ul class="header__link">Продукция</ul>
-					<ul class="header__link">Контакты</ul>
+					<ul class="header__link"><a href="#about">О нас</a></ul>
+					<ul class="header__link"><a href="#tools">Производство</a></ul>
+					<ul class="header__link"><a href="#productions">Продукция</a></ul>
+					<ul class="header__link"><a href="#contacts">Контакты</a></ul>
 				</li>			
 			</menu>
 			<div class="header__caption">
@@ -41,9 +42,11 @@
 		</div>
 
 	</header>
-	<main class="main white">
+	<main class="main light">
+		<p><a name="about"></a></p>
 		<div class="main__container container">
-			<div class="main__about white">
+			<div class="main__about spacer">
+
 				<h2 class="main__about-caption">О нас</h2>
 				<img class="main__about-img1"src="img/Background/1.jpg" alt="img">
 				<img class="main__about-img2"src="img/Background/2.jpg" alt="img">
@@ -53,7 +56,9 @@
 				<img class="main__about-img3"src="img/Background/3.jpg" alt="img">
 				<img class="main__about-img4"src="img/Background/4.jpg" alt="img">
 			</div>	
-			<div class="main__tools">
+			<p><a href="#top">Наверх</a></p>
+			<div class="main__tools spacer">
+				<p><a name="tools"></a></p>
 				<h2>Производство</h2>
 				<div class="main__descriotion">
 					Техническая база - собственное производство, четкая организация работы, слаженность и профессионализм команды определяют быстрое и безукоризненное выполнение всех работ. Работая в круглосуточном режиме, мы обеспечиваем тем самым минимальные сроки выполнения заказов. Выполняем полный спектр полиграфических услуг: предпечатные, печатные и монтажные работы. Индивидуальный подход к каждому клиенту.
@@ -106,8 +111,9 @@
 					</div>
 				</div>
 			</div>		
-
-			<div class="main__productions">
+			<p><a href="#top">Наверх</a></p>
+			<div class="main__productions spacer">
+				<p><a name="productions"></a></p>
 				<h2>Продукция</h2>
 				<div class="elevator__container">
 					<div class="sidebar">
@@ -187,23 +193,34 @@
 					</div>
 				</div>
 			</div>
+			<p><a href="#top">Наверх</a></p>
 		</div>
 		
 
 	</main>
 
-	<footer class="footer black">
+	<footer class="footer dark spacer">
 		<div class="footer__container container">
+			<p><a name="contacts"></a></p>
+			<h2>Контакты</h2>			
 			<div class="footer__contacts">
-				<h2>Контакты</h2>
+				<div class="footer__contacts-left">
+					<div class="adress">г. Курск, Лесной проезд 62</div>
+					<div class="mail"><a href="mailto:ikso46@mail.ru">ikso46@mail.ru</a></div>
+					<div class="phone1"><a href="tel:+7-904-526-77-78">+7-904-526-77-78</a></div>
+					<div class="phone2"><a href="tel:+7-910-210-97-20">+7-910-210-97-20</a></div>
+				</div>
 	
-				<div class="map-div">
-					<iframe class="map-frame" src="https://yandex.ru/map-widget/v1/-/CCUeeBQTTD" width="100%" height="300"
+				<div class="footer__map">
+					<iframe class="footer__map-frame" src="https://yandex.ru/map-widget/v1/-/CCUeeBQTTD" width="100%" height="300"
 						frameborder="1" allowfullscreen="true">
 					</iframe>
 				</div>
-			</div>
 
+			</div>
+			<div class="footer__bottom">
+				2021&copy;Все права защищены
+			</div>
 		</div>
 	</footer>
 	<script src="js/slider.js"></script>

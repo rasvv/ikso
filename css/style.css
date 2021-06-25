@@ -19,14 +19,30 @@ html {
 img {
 	border-radius: 10px;
 }
-.black {
+.dark {
 	color:rgb(248, 250, 252);
 	background-color: hsl(256, 92%, 10%);
 }
 
-.white {
+.light {
 	color:rgb(5, 23, 39);
 	background-color: hsl(0, 0%, 100%);
+}
+
+.spacer {
+	margin-top: 50px;
+}
+
+h2 {
+	margin-bottom: 40px;
+}
+
+p {
+	font-size: 14px;
+}
+
+p:hover a{
+	color: red;
 }
 
 .container {
@@ -141,4 +157,24 @@ img {
 
 .main__tools{
 	/* height: 500px; */
+}
+
+.footer__contacts {
+	display: grid;
+	grid-template-columns: repeat (2, 1fr );
+	width: 100%;
+}
+
+.footer__contacts-left {
+	grid-column: 1;
+	width: 100%;
+}
+
+.footer__map {
+	grid-column: 2;
+}
+
+.footer__bottom {
+	margin-top: 35px;
+	text-align: center;
 }
