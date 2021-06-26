@@ -10,7 +10,7 @@ const heightScreen = container.clientHeight
 let sidebarHeight = 0
 
 let activeSlide = 0
-sidebar.style.top = `-${(slidesCount - 1) * (widthScreen > 950?500:(widthScreen > 650?300:250))}px`
+sidebar.style.top = `-${(slidesCount - 1) * (widthScreen > 950?500:(widthScreen > 700?300:250))}px`
 
 
 
