@@ -1,0 +1,13 @@
+@media  (max-width: 630px) {
+
+  .slide, .elevator__container {
+    height: 250px;
+  }  
+
+  .sidebar h3 {
+    font-size: 18px;
+  }
+  .sidebar p{
+    display: none;
+  }
+}

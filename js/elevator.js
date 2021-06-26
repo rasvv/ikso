@@ -7,9 +7,13 @@ const slidesCount = mainSlide.children.length
 
 const widthScreen = container.clientWidth
 const heightScreen = container.clientHeight 
+let sidebarHeight = 0
 
 let activeSlide = 0
-sidebar.style.top = `-${(slidesCount - 1) * (widthScreen > 950?500:300)}px`
+sidebar.style.top = `-${(slidesCount - 1) * (widthScreen > 950?500:(widthScreen > 650?300:250))}px`
+
+
+
 
 const changeSlide = (direction) => {
 	if (direction === 'up') {
