@@ -10,7 +10,7 @@
 
   .header__container {
     grid-template-columns: 1fr;
-    padding-top: 80px;
+    padding-top: 150px;
   }
 
   .header__img {
@@ -34,4 +34,8 @@
     grid-column: 1;
     grid-row: 2;
   }
+
+  .slide, .elevator__container {
+    height: 300px;
+  }  
 }
