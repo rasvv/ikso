@@ -1,0 +1,37 @@
+@media  (max-width: 950px) {
+
+  main, .footer__container {
+    padding: 10px;
+  }
+
+  .header__logo {
+    left: calc(100vw / 2 - 60px);
+  }
+
+  .header__container {
+    grid-template-columns: 1fr;
+    padding-top: 80px;
+  }
+
+  .header__img {
+    display: none;
+  }
+
+  .main__about {
+    grid-template-columns: 1fr;
+  }
+
+  .main__about-img {
+    display: none;
+  }
+
+  .footer__contacts {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer__map {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
