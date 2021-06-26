@@ -267,6 +267,7 @@ span {
 .client a img{
 	max-width: 100px;
 	max-height: 50px;
+	border-radius: 0;
 }
 
 .client a:hover {
@@ -304,13 +305,15 @@ span {
 
 .footer__contacts-left a {
 	color: #fff;
-
 }
 
-.footer__contacts-left i {
+.mar {
 	margin-right: 20px;
 }
 
+.marbig {
+	margin-right: 30px;
+}
 .footer__contacts-left a:hover {
 	color: yellow
 }
